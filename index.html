@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store | Elevate Your Style</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="main-header">
+    <div class="logo">FASHION STORE</div>
+
+    <i class="fas fa-bars menu-toggle"></i> 
+
+    <nav class="main-nav">
+        <a href="#" class="nav-item active">Home</a>
+        <a href="#men" class="nav-item">Men</a>
+        <a href="#perfume" class="nav-item">Perfume</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fa fa-search icon-btn"></i>
+        <i class="fa fa-user icon-btn"></i>
+        <a href="cart.html"><i class="fa fa-shopping-cart icon-btn cart-icon"></i></a>
+        </div>
+</header>
+
+<section class="hero-section">
+    <div class="hero-background"></div> 
+    
+    <div class="hero-content animate-on-load">
+        <div class="hero-text-container">
+            <p class="hero-slogan">Unleash Your Potential</p>
+            <h1 class="hero-title">Elevate Your Style</h1>
+            <p class="hero-subtitle">Discover premium Men’s Fashion & Exclusive Perfumes. Limited time offers!</p>
+            <a href="#men" class="shop-btn animated-btn">Shop The Collection <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+</section>
+
+---
+
+<h2 class="section-title modern-title" id="men">Men's Collection</h2>
+
+<div class="product-grid">
+
+    <div class="product-card fade-in">
+        <img src="men1.jpg" alt="Men Jacket">
+        <div class="product-info">
+            <h3>Men Jacket</h3>
+            <p class="price">$45</p>
+            <button onclick="addToCart('Men Jacket',45)" class="add-btn hover-grow">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product-card fade-in">
+        <img src="men2.jpg" alt="Men Shirt">
+        <div class="product-info">
+            <h3>Men Shirt</h3>
+            <p class="price">$25</p>
+            <button onclick="addToCart('Men Shirt',25)" class="add-btn hover-grow">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product-card fade-in">
+        <img src="men3.jpg" alt="Men Hoodie">
+        <div class="product-info">
+            <h3>Men Hoodie</h3>
+            <p class="price">$35</p>
+            <button onclick="addToCart('Men Hoodie',35)" class="add-btn hover-grow">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product-card fade-in">
+        <img src="men4.jpg" alt="Men Sneakers">
+        <div class="product-info">
+            <h3>Men Sneakers</h3>
+            <p class="price">$60</p>
+            <button onclick="addToCart('Men Sneakers',60)" class="add-btn hover-grow">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product-card fade-in">
+        <img src="men5.jpg" alt="Slim Fit Jeans">
+        <div class="product-info">
+            <h3>Slim Fit Jeans</h3>
+            <p class="price">$55</p>
+            <button onclick="addToCart('Slim Fit Jeans', 55)" class="add-btn hover-grow">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product-card fade-in">
+        <img src="men6.jpg" alt="Polo T-Shirt">
+        <div class="product-info">
+            <h3>Polo T-Shirt</h3>
+            <p class="price">$30</p>
+            <button onclick="addToCart('Polo T-Shirt', 30)" class="add-btn hover-grow">Add to Cart</button>
+        </div>
+    </div>
+    
+    <div class="product-card fade-in">
+        <img src="men7.jpg" alt="Luxury Leather Wallet">
+        <div class="product-info">
+            <h3>Leather Wallet</h3>
+            <p class="price">$40</p>
+            <button onclick="addToCart('Leather Wallet', 40)" class="add-btn hover-grow">Add to Cart</button>
+        </div>
+    </div>
+    
+    <div class="product-card fade-in">
+        <img src="men8.jpg" alt="Sport Watch">
+        <div class="product-info">
+            <h3>Sport Watch</h3>
+            <p class="price">$150</p>
+            <button onclick="addToCart('Sport Watch', 150)" class="add-btn hover-grow">Add to Cart</button>
+        </div>
+    </div>
+
+</div>
+
+---
+
+<h2 class="section-title modern-title" id="perfume">Perfume Collection</h2>
+
+<div class="product-grid">
+
+    <div class="product-card fade-in">
+        <img src="perf1.jpg" alt="Royal Oud Perfume">
+        <div class="product-info">
+            <h3>Royal Oud</h3>
+            <p class="price">$90</p>
+            <button onclick="addToCart('Royal Oud',90)" class="add-btn hover-grow">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product-card fade-in">
+        <img src="perf2.jpg" alt="Blue Mist Perfume">
+        <div class="product-info">
+            <h3>Blue Mist</h3>
+            <p class="price">$70</p>
+            <button onclick="addToCart('Blue Mist',70)" class="add-btn hover-grow">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product-card fade-in">
+        <img src="perf3.jpg" alt="Night Intense Perfume">
+        <div class="product-info">
+            <h3>Night Intense</h3>
+            <p class="price">$110</p>
+            <button onclick="addToCart('Night Intense',110)" class="add-btn hover-grow">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product-card fade-in">
+        <img src="perf4.jpg" alt="Fresh Citrus Perfume">
+        <div class="product-info">
+            <h3>Fresh Citrus</h3>
+            <p class="price">$55</p>
+            <button onclick="addToCart('Fresh Citrus',55)" class="add-btn hover-grow">Add to Cart</button>
+        </div>
+    </div>
+    
+    <div class="product-card fade-in">
+        <img src="perf5.jpg" alt="Ocean Breeze EDP">
+        <div class="product-info">
+            <h3>Ocean Breeze EDP</h3>
+            <p class="price">$85</p>
+            <button onclick="addToCart('Ocean Breeze EDP', 85)" class="add-btn hover-grow">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product-card fade-in">
+        <img src="perf6.jpg" alt="Spicy Amber Elixir">
+        <div class="product-info">
+            <h3>Spicy Amber Elixir</h3>
+            <p class="price">$120</p>
+            <button onclick="addToCart('Spicy Amber Elixir', 120)" class="add-btn hover-grow">Add to Cart</button>
+        </div>
+    </div>
+    
+    <div class="product-card fade-in">
+        <img src="perf7.jpg" alt="Velvet Bloom EDP">
+        <div class="product-info">
+            <h3>Velvet Bloom EDP</h3>
+            <p class="price">$95</p>
+            <button onclick="addToCart('Velvet Bloom EDP', 95)" class="add-btn hover-grow">Add to Cart</button>
+        </div>
+    </div>
+    
+    <div class="product-card fade-in">
+        <img src="perf8.jpg" alt="Desert Saffron EDP">
+        <div class="product-info">
+            <h3>Desert Saffron</h3>
+            <p class="price">$135</p>
+            <button onclick="addToCart('Desert Saffron', 135)" class="add-btn hover-grow">Add to Cart</button>
+        </div>
+    </div>
+
+</div>
+
+<footer class="site-footer">
+    <p>&copy; 2025 FASHION STORE. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
